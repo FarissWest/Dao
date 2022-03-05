@@ -1,0 +1,827 @@
+* {
+    box-sizing: border-box;
+}
+
+@charset "UTF-8";
+/* Body */
+
+.body {
+
+    background-color: lightyellow;
+}
+
+.container {
+    width: 100%;
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin-bottom: 10px;
+    margin-right: 100px;
+    flex-wrap: wrap;
+}
+
+.nav p {
+    padding-left: 10px;
+}
+
+.nav a {
+    color: #707070;
+}
+
+.nav a:hover {
+    color: skyblue;
+    border-bottom: 1px solid skyblue;
+
+}
+
+
+
+
+
+.slider {
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/headbanner-hoofdpagina-1.gif);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    margin-top: 79.8px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.title {
+    text-align: center;
+}
+
+.footer {
+    width: 100%;
+    background-color: green;
+    margin-top: 70px;
+    color: white;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.footer-menu a {
+    color: white;
+}
+
+.copywrite {
+    height: 50px;
+    width: 100%;
+    background-color: green;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+}
+
+
+.contact-title {
+    font-weight: bold;
+}
+
+.adres-title {
+    font-weight: bold;
+}
+
+.title-openingstijden {
+    font-weight: bold;
+    padding-left: 25px;
+}
+
+.corona {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 65px;
+    padding-bottom: 65px;
+    flex-wrap: wrap;
+}
+
+.corona-afbeelding img {
+    height: 250px;
+}
+
+.corona-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.corona-title h2 {
+    color: red;
+}
+
+.corona-title span {
+    color: red;
+}
+
+.corona-title p {
+    color: green;
+    margin: 0.5em;
+}
+
+
+
+.uitgangspunt {
+    width: 100%;
+    height: 27%;
+    background-image: url(../img/head-banner1.gif);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.uitgangspunt-tekst {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.uitgangspunt p {
+    margin: 0.5em;
+}
+
+.yinyang {
+    order: -1;
+}
+
+.afspraak {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.afspraak-tekst {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.afspraak-button {
+    border: none;
+    padding: 14px 28px;
+    cursor: pointer;
+    background-color: green;
+    font-weight: bold;
+}
+
+.afspraak-button a {
+    color: white;
+}
+
+
+
+
+.behandeling {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.behandeling-index {
+    width: 300px;
+    height: 200PX;
+    background-image: url(../img/behandeling-index.gif);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: green;
+}
+
+.behandeling-index p {
+    color: green;
+    font-weight: bold;
+    font-size: 15px;
+
+}
+
+.behandeling-index:hover {
+    opacity: 0.60;
+
+
+}
+
+.slider-behandeling {
+    background-image: url(../img/Behandeling-slider.gif);
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.soort-klachten {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 55rem;
+}
+
+.soort-klachten p {
+    border: 1px solid green;
+    margin-left: 30px;
+    padding: 5px;
+    border-radius: 4px;
+    color: green;
+    font-size: 14px;
+}
+
+.slider-over-ons {
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/praktijk-afbeelding-over-ons.gif);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    margin-top: 79.8px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.over-ons-voorstellen {
+    font-size: 14px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: green;
+    flex-wrap: wrap;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 30px;
+    border-bottom: 1px solid green;
+}
+
+.over-ons {
+    font-size: 14px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: green;
+    flex-wrap: wrap;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 30px;
+}
+
+
+
+
+.tekst-over-ons {
+    width: 600px;
+}
+
+.title-over-ons {
+    color: green;
+    font-weight: bold;
+}
+
+
+.tekst-zhong {
+    width: 600px;
+}
+
+.title-zhong {
+    color: green;
+    font-weight: bold;
+}
+
+.kab {
+    width: 1000px;
+    height: 250px;
+    margin-left: 150px;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -100px;
+    color: green;
+}
+
+.tekst-kab {
+    width: 600px;
+}
+
+.acupunctuur {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    color: green;
+    flex-wrap: wrap;
+    padding: 30px 200px 30px 200px;
+}
+
+.title-acupunctuur {
+    font-weight: bold;
+}
+
+.acupunctuur p {
+    max-width: 500px;
+}
+
+.tcg {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    color: green;
+    flex-wrap: wrap;
+    padding: 0px 200px 30px 200px;
+}
+
+.tekst-tcg {
+    max-width: 500px;
+}
+
+
+.title-tcg {
+    font-weight: bold;
+    font-size: 14px;
+    color: green;
+}
+
+.chinees-kruiden {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    color: green;
+    flex-wrap: wrap;
+    padding: 0px 200px 30px 200px;
+    border-bottom: 1px solid green;
+}
+
+.tekst-chinees-kruiden {
+    max-width: 500px;
+}
+
+.title-chinees-kruiden {
+    font-weight: bold;
+    font-size: 14px;
+    color: green;
+}
+
+.soorten-behandeling {
+    color: green;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.tekst-soorten-behandeling {
+    font-weight: bold;
+    font-size: 14px;
+    color: green;
+    text-align: center;
+}
+
+
+
+.klachten {
+    width: 1000px;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.slider-tarieven {
+    background-image: url(../img/tarieven-slider.gif);
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.tarieven-acupunctuur {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 35px;
+    padding-left: 200px;
+    padding-right: 200px;
+    flex-wrap: wrap;
+}
+
+.title-tarieven-acupunctuur {
+    font-weight: bold;
+    font-size: 14px;
+    color: green;
+
+}
+
+.tekst-tarieven-acupunctuur {
+    color: green;
+    max-width: 500px;
+}
+
+.vergoeding {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 35px;
+    padding-left: 200px;
+    padding-right: 200px;
+    flex-wrap: wrap;
+}
+
+
+.title-vergoeding {
+    font-weight: bold;
+    font-size: 14px;
+    color: green;
+
+}
+
+.tekst-vergoeding {
+    color: green;
+    max-width: 500px;
+}
+
+.aanmelden {
+    font-size: 18px;
+    font-weight: bold;
+    color: green;
+    width: 100% height:100px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+    padding-top: 73px;
+
+}
+
+.slider-afspraak {
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/slider-afspraak.gif);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: green;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.afspraak-form {
+    width: 100%;
+    color: green;
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+.form-vragenlijst label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+    margin-right: 100px;
+
+
+}
+
+.button {
+    border: none;
+    padding: 14px 28px;
+    cursor: pointer;
+    background-color: green;
+    font-weight: bold;
+    margin-top: 30px;
+    color: white;
+
+}
+
+
+.form-input input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+    height: 14px;
+    width: 200px;
+}
+
+.onderwerp {
+    width: 100%;
+    height: 90px;
+    color: green;
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+.onderwerp-aanmelden label {
+    margin-bottom: 25px;
+
+}
+
+.onderwerp-input input {
+    margin-left: 150px;
+
+}
+
+.textarea {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+    width: 200px;
+}
+
+.slider-contact {
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/slider-contact.gif);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.bericht {
+    width: 100%;
+    height: 90px;
+    color: green;
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+.bericht-aanmelden label {}
+
+.bericht-input input {
+    width: 200px;
+    height: 100px;
+    margin-left: 170px;
+}
+
+.button-aanmelden {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.verzenden-button {
+    border: none;
+    padding: 14px 28px;
+    cursor: pointer;
+    background-color: green;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.verzenden-button a {
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.contact-page {
+    color: green;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 30px 200px 30px 200px;
+
+}
+
+.contact-wijze {
+    max-width: 500px
+}
+
+
+.behandeling-contact {
+    height: 125px;
+}
+
+.behandeling-contact-title {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.behandeling-contact-tekst a {
+    font-weight: bold;
+    color: green;
+}
+
+
+
+.telefoon-contact {
+    max-width: 500px;
+    height: 125px;
+}
+
+.telefoon-contact-title {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.email-contact-title {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.email-contact {
+    max-width: 500px;
+    height: 125px;
+    margin-top: -10px;
+}
+
+.email-contact-tekst a {
+    color: green;
+    font-weight: bold;
+}
+
+.contact-foto img{
+    width: 100%;
+    max-width: 600px;
+}
+
+
+.adres-contact-page {
+    color: green;
+    font-size: 14px;
+    margin-left: 150px;
+    margin-top: 30px;
+}
+
+.Adres-title {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.gastenboek {
+    padding: 30px;
+
+}
+
+.recensie-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+article {
+    width: 350px;
+    border: 1px solid black;
+    margin: 0px 30px 30px 0px;
+}
+
+article h5 {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+.naam-gasten {
+    border-bottom: 1px solid black;
+}
+
+.naam-gasten,
+.bericht-gasten {
+    padding: 15px;
+}
+
+.naam-gasten h5 {
+    font-size: 16px;
+    color: green;
+    font-weight: bold;
+}
+
+.bericht-gasten p {
+    font-size: 17px;
+    color: green;
+    font-style: italic;
+
+}
+
+.gastenboek h2 {
+    color: green;
+    display: flex;
+    justify-content: center;
+
+}
+
+.star {
+    color: gold;
+}
+
+.naam-gasten {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+@media(max-width:700px) {
+    .pagina-behandeling {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    .container .tarieven {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    .container .tarieven-acupunctuur,
+    .container .vergoeding {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .container .over-ons-voorstellen,
+    .container .over-ons {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .container .acupunctuur,
+    .container .tcg,
+    .container .chinees-kruiden {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+
+    .container .form-vragenlijst label{
+        margin-right: 25px;
+    }
+    .container .contact-page {
+        padding: 20px;
+    }
+    
+    .container .adres-contact-page{
+     margin-left: 20px;
+    }
+    
+    @media(max-width:450px){
+    .container .slider-contact{
+        margin-top: 200px;
+        
+    }
+}
+
+iframe{
+    width: 100%;
+    max-width: 600px;
+}
+
+
+
+
+. .
